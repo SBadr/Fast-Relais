@@ -1,0 +1,153 @@
+/* Color 1 */
+.h-menu .navbar-main > li:not(.h-submit-listing) > a:focus,
+.h-menu .navbar-main > li:not(.h-submit-listing) > a:hover,
+.h-menu .navbar-main > li.open > a:focus,
+.h-menu .navbar-main > li.open > a:hover,
+.h-menu .navbar-main > li.open > a,
+.footer .f-3td a,
+a.h-curr-active,
+.h-menu .h-active,
+.faet-tooltip2:hover,
+.blue,
+.big-text-dropcap:first-letter,
+.error-blue,
+.pricing-main-block .left-block .title,
+.pricing-main-block .right-block .title,
+.new-first-det i,
+.listing-details-left .left-1-menu .fa,
+.listing-details-left .business-services .active-business-item, /* !!! */
+.listing-details-left .business-services .business-services-menu li:hover, /* !!! */
+.row-browse-categories .table-categories .cat-header .fa,
+.table-categories a:hover,
+.table-cat-inf tr:hover,
+.blog-det-comment a{
+	color: #ff9600;
+}
+
+.bg-color1,
+.blue-tooltip + .tooltip > .tooltip-inner,
+.newsletter,
+.about-nav-left,
+.radio1 label:before,
+.radio4 input[type=radio]:checked + label:after{
+	background-color: #ff9600;
+}
+
+li.h-submit-listing a:hover,
+.txt-bg-blue,
+.square-dropcap:first-letter,
+.blue-circle, .button-blue,
+.logotype div,
+.pricing-main-block .main-block,
+.main-block .price-tbl,
+.right-title,
+.make-reservation,
+.make-reservation .about-title span,
+.related-listings-row .about-title span,
+.listing-owner .soc-icons img:hover,
+.rait-numb,
+.related-listings,
+.phone-features-icon,
+.home2-header .find-btn,
+.home-1-reserv .make-reservation,
+.bgbl,
+.checkbox-3 label:before,
+.datepicker table tr td.active.active{
+	background: #ff9600;
+}
+
+.blue-tooltip + .tooltip > .tooltip-arrow,
+.main-block .price-tbl:after,
+#page-preloader .spinner,
+.custom-select.select-type3 .chosen-container-single .chosen-single div b:after{
+	border-top-color: #ff9600;
+}
+.custom-select.select-type3 .chosen-container-single .chosen-single div b:before{
+	border-bottom-color: #ff9600;
+}
+.first-word{
+	border-bottom: 5px solid #ff9600;
+}
+
+.about-nav-left:before{
+	border-left-color: #ff9600;
+}
+
+
+/* Color 2 */
+.f-orange,
+.orange,
+.footer .f-2td ul li:hover i, /* !!! */
+.footer .f-2td ul li:hover a, /* !!! */
+.footer .f-3td a:hover,
+.error-orange,
+.error404list li:hover a,
+.search-button i:hover,
+.memb-txt .fa-phone,
+.about-nav-left .icon-ok-circle,
+.raitings i,
+.blog-news-nav i,
+.new-first-det a:hover i,
+.new-first-det a:hover,
+.blog-det-comment a:hover,
+.blog-news-nav .blog-nav-el:hover,
+.nav-right-menu li:hover,
+.nav-right-menu li:hover a,
+.list-det-left .fa,
+.raiting-review .fa,
+.comment-raiting ul .fa,
+.comment-raiting ul .fa,
+.related-listings .fa,
+.listing-details-left .business-services .active-business-item .fa,
+.listing-details-left .business-services .business-services-menu li:hover .fa,
+.results-container .memb-photo-hover .fa,
+.table-cat-bgf .cat-header,
+.footer .f-2td a:hover{
+	color: #09397a;
+}
+li.h-submit-listing a,
+.txt-bg-orange,
+.rectangle-dropcap:first-letter,
+.round-dropcap:first-letter,
+.button-orange,
+.newsletter-bg,
+.logotype:hover div,
+.about-nav-right .nav-right-cont,
+.blog-pagination .pag-element:hover,
+.find-btn,
+.find-btn a,
+.listing-details-left .left-1-menu .menu-link:hover,
+.listing-details-left .left-1-menu .menu-link:hover .fa,
+.listing-details-left .left-1-menu .menu-link:focus,
+.listing-details-left .left-1-menu .menu-link:focus  i,
+.sidebar-orange,
+.sidebar-orange .fa,
+.cal-container .datepicker table tr td.day:hover,
+.select-time-list a:hover,
+.select-time-list a:hover div,
+.select-time-list a:focus div,
+.update-listings-btn:hover,
+.checkbox-2 label:before{
+	background: #09397a;
+}
+.orange-tooltip + .tooltip > .tooltip-inner,
+.footer .o-circle,
+.radio2 input[type=radio]:checked + label:after{
+	background-color: #09397a;
+}
+.orange-tooltip + .tooltip > .tooltip-arrow,
+#page-preloader .spinner:before{
+	border-top-color: #09397a;
+}
+.newsletter-bg:before{
+	border-right-color: #09397a;
+}
+.form-1-style3:focus,
+.listing-details-left .left-1-menu .menu-link:hover,
+.listing-details-left .left-1-menu .menu-link:hover .fa,
+.listing-details-left .left-1-menu .menu-link:focus,
+.listing-details-left .left-1-menu .menu-link:focus  i,
+.filter-slider .slider-handle{
+	border-color: #09397a;
+}
+

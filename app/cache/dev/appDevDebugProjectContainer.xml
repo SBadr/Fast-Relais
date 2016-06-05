@@ -15,9 +15,9 @@
       <parameter key="SwiftmailerBundle">Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle</parameter>
       <parameter key="DoctrineBundle">Doctrine\Bundle\DoctrineBundle\DoctrineBundle</parameter>
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
-      <parameter key="AppBundle">AppBundle\AppBundle</parameter>
       <parameter key="FOSUserBundle">FOS\UserBundle\FOSUserBundle</parameter>
       <parameter key="UserBundle">App\UserBundle\UserBundle</parameter>
+      <parameter key="AppBundle">App\AppBundle\AppBundle</parameter>
       <parameter key="DebugBundle">Symfony\Bundle\DebugBundle\DebugBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
       <parameter key="SensioDistributionBundle">Sensio\Bundle\DistributionBundle\SensioDistributionBundle</parameter>
@@ -1869,7 +1869,7 @@
         </argument>
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>575458b95a4fa5.52518091</argument>
+            <argument>57548c0cc8bcf0.61712001</argument>
           </service>
         </argument>
       </argument>
@@ -2170,7 +2170,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>575458b95a4fa5.52518091</argument>
+            <argument>57548c0cc8bcf0.61712001</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -3204,6 +3204,10 @@
       <call method="addPath">
         <argument>C:\xampp\htdocs\FastRelais\src\App\UserBundle/Resources/views</argument>
         <argument>User</argument>
+      </call>
+      <call method="addPath">
+        <argument>C:\xampp\htdocs\FastRelais\src\App\AppBundle/Resources/views</argument>
+        <argument>App</argument>
       </call>
       <call method="addPath">
         <argument>C:\xampp\htdocs\FastRelais\vendor\symfony\symfony\src\Symfony\Bundle\DebugBundle/Resources/views</argument>

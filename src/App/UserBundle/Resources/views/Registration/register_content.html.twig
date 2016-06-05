@@ -1,8 +1,71 @@
-{% trans_default_domain 'FOSUserBundle' %}
 
-{{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
-    {{ form_widget(form) }}
-    <div>
-        <input type="submit" value="{{ 'registration.submit'|trans }}" />
-    </div>
-{{ form_end(form) }}
+
+
+<div class="row listing-details-main">
+        <div class="m1170 pl-15 pr-15" >						
+                <div class="additional-filter col-md-7" style="margin-left: 25%">
+                <!--  A AFFICHER EN CAS D'ERREUR -->
+
+
+                    {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}    
+                        <!-- ligne Email-->
+                        <div class="col-md-4 wordwrap" style="margin-top: 15px">
+                                <span class="font13 uppercase color333"><b>Username</b></span>
+                        </div>
+                        <div class="col-md-8 padding0">
+                                <div class="p-right0 wordwrap">
+                                        {{ form_widget(form.username, { 'attr' : {'class': 'form-1-style2 sign-login border1 borderf7 b-radius3', 'placeholder':'Username'} }) }}
+                                </div>	
+                        </div>
+                        
+                                                                        <!-- ligne de mdp-->
+                        <div class="col-md-4 wordwrap top20" style="margin-top: 35px">
+                                <span class="font13 uppercase color333"><b>Email</b></span>
+                        </div>
+                        <div class="col-md-8 padding0">
+                                <div class="top20 p-right0 wordwrap">
+                                        {{ form_widget(form.email, { 'attr': {'class': 'form-1-style2 sign-login border1 borderf7 b-radius3', 'placeholder':'email@site.fr'} }) }}
+                                </div>		
+                        </div>
+
+                                                                        <!-- ligne de mdp-->
+                        <div class="col-md-4 wordwrap top20" style="margin-top: 35px">
+                                <span class="font13 uppercase color333"><b>Mot de passe</b></span>
+                        </div>
+                        <div class="col-md-8 padding0">
+                                <div class="top20 p-right0 wordwrap">
+                                        {{ form_widget(form.plainPassword.first, { 'attr' : {'class': 'form-1-style2 sign-login border1 borderf7 b-radius3', 'placeholder':'Mot de passe'} }) }}
+                                </div>		
+                        </div>
+                        <div class="col-md-4 wordwrap top20" style="margin-top: 35px">
+                                <span class="font13 uppercase color333"><b>Confirmation</b></span>
+                        </div>
+                        <div class="col-md-8 padding0">
+                                <div class="top20 p-right0 wordwrap">
+                                        {{ form_widget(form.plainPassword.second, { 'attr' : {'class': 'form-1-style2 sign-login border1 borderf7 b-radius3', 'placeholder':'Mot de passe'} }) }}
+
+                                </div>		
+                        </div>
+                        <div class="filter-slider">
+                                <div class="col-md-6">
+                                        <div class="checkbox checkbox-1 f-left top30">
+                                                <input id="check6" type="checkbox" name="check" value="check6" checked>
+                                                <label for="check6" style="padding-left: 30px;">Rester connecter</label>
+                                        </div>
+                                </div>  
+                                <div class="col-md-10 top30">
+                                        <a>Mot de passe oublié ?</a> 
+                                        <br/>							
+                                        <a> Se Connecter</a>
+
+                                </div>
+
+                        </div>
+
+                        <i class="divider" role="separator"></i>
+                        <a href="#"><div class="update-listings-btn b-radius3"><b>S'inscrire</b></div></a>
+                        <input type="submit" value="{{ 'registration.submit'|trans }}" />
+                    {{ form_end(form) }}    
+                </div>
+        </div>	
+</div>
