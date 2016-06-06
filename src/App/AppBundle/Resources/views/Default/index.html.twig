@@ -1,1 +1,115 @@
-Hello World!
+{% extends "AppBundle::frame.html.twig" %}
+
+
+{% block header %}
+    <div class="row business-services-header">
+            <div id="map-canvas" class="business-services-gmaps"></div><div class="clearfix"></div>
+    </div>
+
+    <div class="row listing-details-main">
+            <div class="m1170 pl-15 pr-15" >
+
+                    <div class="make-reservation">
+                            <div class="about-title extrabold uppercase">
+                                    <span class="font22 color333">RECherecher un FastRelais</span>
+                            </div>
+                            <div class="reservation-dropdowns top40">
+                                    <div class="col-sm-1 open-close-filter">
+                                            <i class="fa fa-navicon font20 colorfff">&nbsp;</i>
+                                            <div class="clearfix"></div>
+                                    </div>
+                                    <div class="col-sm-3 p-left0 p-right0">
+                                            <div class="btn-group width100">
+                                                    <div class="custom-select select-type4 location">
+                                                        <input class="form-1-style1 border1 location"  style="height: 48px" placeholder="Adresse de livraison"><i class="fa fa-map-marker" style="font-size: 20px;"></i></input>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <div class="col-sm-3 p-left0 p-right0">
+                                            <div class="btn-group width100">
+
+                                                <input class="form-1-style1  border1" style="height: 48px" placeholder="Date de livraison"  data-provide="datepicker"><i class="fa fa-calendar" style="font-size: 20px;"></i></input>
+
+                                            </div>
+                                    </div>
+                                    <div class="col-sm-3 p-left0 p-right0">
+                                            <div class="btn-group width100">
+                                                    <div class="custom-select select-type4 category">
+                                                            <select class="chosen-select">
+                                                                <option disabled="true" selected="true" value="1">Heure de livraison</option>
+                                                                    <option value="2">07 : 00 - 12:00</option>
+                                                                    <option value="3">12 : 00 - 17:00</option>
+                                                                    <option value="4">17 : 00 - 22:00</option>
+                                                                    <option value="5">Heure inconnu</option>
+                                                            </select>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <div class="col-sm-2 p-left0 p-right0">
+                                            <div class="btn-group width100">
+                                                    <a href="#"><div class="find-btn">RECHERCHER</div></a>
+                                            </div>
+                                    </div><div class="clearfix"></div>
+                            </div>
+                    </div>
+                    <div class="additional-filter">
+                            <div class="row">
+                                    <div class="col-sm-6">
+                                            <div class="filter-slider">
+                                                    <div class="col-md-4 wordwrap">
+                                                            <span class="font13 uppercase color333"><b>Distance (Km)</b></span>
+                                                    </div>
+                                                    <div class="col-md-8 padding0">
+                                                            <table class="width100">
+                                                                    <tr>
+                                                                            <td class="width100 p-right20">
+                                                                                    <input id="ex6" class="list-slider-1 count-slider" type="text" data-value-container="#ex6SliderVal" data-slider-min="1" data-slider-max="100" data-slider-step="5" data-slider-value="3">
+                                                                            </td>
+                                                                            <td class="wordwrap"><span id="ex6CurrentSliderValLabel"><span id="ex6SliderVal" class="font13 semibold 333">3 </span><span class="font13 semibold color333"> Km</span></span></td>
+                                                                    </tr>
+                                                            </table>
+                                                    </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                            <div class="filter-slider">
+                                                    <div class="col-md-4 wordwrap">
+                                                            <span class="font13 uppercase color333"><b>Moyen d'evaluation</b></span>
+                                                    </div>
+                                                    <div class="col-md-8 padding0">
+                                                            <table class="width100">
+                                                                    <tr>
+                                                                            <td class="width100 p-right20">
+                                                                                    <input id="ex7" class="list-slider-1 count-slider" type="text" data-value-container="#ex7SliderVal" data-slider-min="1" data-slider-max="5" data-slider-step="0.5" data-slider-value="3">
+                                                                            </td>
+                                                                            <td class="wordwrap"><span id="ex7CurrentSliderValLabel"><span id="ex7SliderVal" class="font13 semibold color333">3</span></span>
+                                                                            </td>
+                                                                    </tr>
+                                                            </table>
+                                                    </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                    </div>
+                            </div>
+                            <div class="col-sm-12 font12 semibold color777 top40 add-filter-chkbx l-h-22">
+                                    <div class="f-left font13 uppercase color333 p-right20"><b>Filter par tag</b></div>
+                                    <div class="f-left">
+                                            <div class="styled-checkbox f-left"><label><input name="checkbox" class="checkbox-inline checkbox-style5" type="checkbox" value="" checked=""><span></span><span class="checkbox-txt">Livrer chez moi</span></label></div>
+                                            <div class="styled-checkbox f-left"><label><input name="checkbox" class="checkbox-inline checkbox-style5" type="checkbox" value="" checked=""><span></span><span class="checkbox-txt">Grand colis</span></label></div>
+                                    </div><div class="f-left">
+                                            <div class="styled-checkbox f-left"><label><input name="checkbox" class="checkbox-inline checkbox-style5" type="checkbox" value="" checked=""><span></span><span class="checkbox-txt">Diponibilités flexible</span></label></div>
+                                    </div>
+                            </div><div class="clearfix"></div>
+                            <a href="#"><div class="update-listings-btn b-radius3"><b>MAJ LA LISTE</b></div></a>
+                    </div>
+            </div>
+    </div>
+    
+    
+{% endblock header %}
+
+
+{% block content %}
+    <div class="clearfix"></div>
+{% endblock content %}
