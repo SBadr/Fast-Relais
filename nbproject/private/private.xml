@@ -4,10 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/FastRelais/src/App/AppBundle/Resources/views/frame.html.twig</file>
-            <file>file:/C:/xampp/htdocs/FastRelais/app/AppKernel.php</file>
-            <file>file:/C:/xampp/htdocs/FastRelais/web/app_dev.php</file>
-            <file>file:/C:/xampp/htdocs/FastRelais/web/app.php</file>
-            <file>file:/C:/xampp/htdocs/FastRelais/src/App/UserBundle/UserBundle.php</file>
+            <file>file:/C:/xampp/htdocs/FastRelais/src/App/AppBundle/Resources/config/routing.yml</file>
+            <file>file:/C:/xampp/htdocs/FastRelais/app/config/routing.yml</file>
+            <file>file:/C:/xampp/htdocs/FastRelais/app/config/config.yml</file>
+            <file>file:/C:/xampp/htdocs/FastRelais/src/App/UserBundle/Entity/User.php</file>
+            <file>file:/C:/xampp/htdocs/FastRelais/src/App/UserBundle/Resources/views/Registration/register.html.twig</file>
+            <file>file:/C:/xampp/htdocs/FastRelais/src/App/AppBundle/Resources/views/Default/index.html.twig</file>
             <file>file:/C:/xampp/htdocs/FastRelais/src/App/UserBundle/Resources/views/Security/login.html.twig</file>
             <file>file:/C:/xampp/htdocs/FastRelais/src/App/UserBundle/Resources/views/Default/index.html.twig</file>
         </group>

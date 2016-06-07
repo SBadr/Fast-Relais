@@ -3,8 +3,8 @@
 	<head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>FAST RELAIS {% block title %}| ACCUEIL{% endblock title %}</title>
-        <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+        <title>FAST RELAIS{% block title %} | ACCUEIL{% endblock title %}</title>
+        <link rel="icon" type="image/x-icon" hre        f="img/favicon.png" />
         
         <link href="{{ asset('includes/css/master.css') }}" rel="stylesheet">
        
@@ -17,6 +17,20 @@
 		<link rel="alternate stylesheet" type="text/css" href="{{ asset('includes/assets/switcher/css/color5.css') }}" title="color5" media="all" />
 		<link rel="alternate stylesheet" type="text/css" href="{{ asset('includes/assets/switcher/css/color6.css') }}" title="color6" media="all" />
         
+                <link rel="stylesheet" href="{{ asset('includes/css/jquery.ui.all.css') }}">
+                <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+                <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+                <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+                <script src="{{ asset('includes/js/addresspicker/jquery.ui.addresspicker.js') }}"></script>
+                <script>
+                $(function() {
+                  var addresspicker = $( "#addresspicker" ).addresspicker({
+                    componentsFilter: 'country:FR'
+                  });
+
+                });
+                </script>
                 <script>
                 $(function() {
                   $( ".datepicker" ).datepicker();
@@ -28,6 +42,7 @@
         <![endif]-->
 	</head>
 	<body>
+            
 		<!-- Loader -->
 		<div id="page-preloader"><span class="spinner"></span></div>
 		<!-- Loader end -->
@@ -216,8 +231,8 @@
 		</footer>
 
 		<!--Main-->   
-		<!--Main-->   
-		<script src="{{ asset('includes/js/jquery-1.11.3.min.js') }}"></script>
+		<!--   
+		<script src="{#{ asset('includes/js/jquery-1.11.3.min.js') }#}"></script>-->
 		<script src="{{ asset('includes/js/bootstrap.min.js') }}"></script>
 		<script src="{{ asset('includes/js/modernizr.custom.js') }}"></script>
 		<script src="{{ asset('includes/js/classie.js') }}"></script>
